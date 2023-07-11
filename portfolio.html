@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="navbar" >
+                <img id="logo" src="image/logo.png"> 
+                 <nav id="sidemenu">
+                    <ul >
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <a href=""><img  src="image/cross.png" onclick="closemenu()"></a>
+                    </ul>
+                </nav>
+                <a href=""><img class="menu" src="image/menu.png" onclick="openmenu()"></a>
+            </div>
+            <div class="header-text">
+                <p>Hey Guyz..</p>
+                <h1>I'm <span>MANISH</span> KUMAR</h1>
+                <h4>CREATIVE WEB DESIGNER | AUTOCAD</h4>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3>Hey Guyz.... </h3>
+                    <p1> I'm <span>Manish</span> Kumar. I am persunig Btech in <span> Computer Science</span>
+                        from <br></p1>
+                    <p2>
+                        <span> Deenbandhu Choturam University of Science and
+                            Technology</span>,Murthal,Haryana.
+                    </p2>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Devlopment</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                            <li><span>Autocad</span><br>Building Home Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <h5>no experience yet</h5>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <h1>My Educational info.........</h1>
+                        <p>I have done my schooling from Nav Bharat sen.sec. school Siwani Mandi, Bhiwani,Haryana.<br>
+                            In class 10th Boards,I have scored 84.4%.<br>
+                            In class 12th Boards,I have scored 89.4%.<br>
+                            and Now I am persunig Btech in<strong> Computer Science</strong> from <br><strong>
+                                Deenbandhu
+                                Choturam University of Science and Technology</strong>,Murthal,Haryana</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Sercices-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="services-title">My Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus cum sint neque vitae aut,
+                        eligendi, tenetur dicta dolore provident, velit tempore sed nihil culpa amet numquam rerum optio
+                        mollitia repellendus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+
+                    <h2>App Designing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus cum sint neque vitae aut,
+                        eligendi, tenetur dicta dolore provident, velit tempore sed nihil culpa amet numquam rerum optio
+                        mollitia repellendus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+
+                    <h2>Autocad</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus cum sint neque vitae aut,
+                        eligendi, tenetur dicta dolore provident, velit tempore sed nihil culpa amet numquam rerum optio
+                        mollitia repellendus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------Portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/img1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Work from Home</h3>
+                        <p>Find Relevant Information On What Your Are Looking For Online Work From Home. Get Answers.
+                            Visit Our Website.</p>
+                        <a href="#"><img src="image/linkicon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/img2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Downlode it from play store.
+                        </p>
+                        <a href="#"><img src="image/linkicon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/img3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Home Design</h3>
+                        <p>Creating the home of your dreams. We help you live in style. Turning a house into a home.
+                            Dream it; let's make it happen.</p>
+                        <a href="#"><img src="image/linkicon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------CONTACT US------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="contact-title">Contact Us</h1>
+                    <p> <img src="image/mailicon.png" alt=""> manishkumar34290@gmail.com</p>
+                    <p><img src="image/contacticon.png" alt=""> 8571064055</p>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="image/icon1.png"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="image/icon2.png"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="image/icon3.png"></a>
+                    <a href="https://web.telegram.org/" target="_blank"><img src="image/icon4.png"></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <div class="form-group">
+                            <label for="name">Name: </label>
+                            <input type="text" name="Name" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" name="Email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number: </label>
+                            <input type="phone" name="Phone no" id="phone" placeholder="Enter your phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <textarea name="Message" id="message" placeholder="Enter your Mesage" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 MD Verma. All rights reserved!</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementsById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen=document.getElementById("sidemenu");
+        function openmenu(){
+             sidemen.style.right = "0";
+        }
+        function closemenu(){
+             sidemen.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzze_rqpICyvfyCSn7mRc2TtIrFmbFpuw2Cmid8giRSTqBhcZFQAGh9oitfQRnuUdCX/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
